@@ -9,8 +9,7 @@ class FrequencyTestIndividualBits(unittest.TestCase):
         sequency = [1, 0, 0, 0, 1, 0, 1, 1, 1, 0, 1, 1, 0, 1, 1]
         sobs_result = 0.774596669241
         self.assertAlmostEqual(frequency_test_individual_bits_NITS(sequency), sobs_result)
-        
-        
+  
     def test_basic_sobs_frequency_test_individual_bits_2(self):
         # calculate Sobs from frequency individual bits test
         sequency = [0, 0, 1, 1, 1, 0, 0, 0, 1, 0, 1, 0, 1, 1, 0, 0]
@@ -33,8 +32,7 @@ class LFSROutputStringSequence(unittest.TestCase):
         output_len = 4
         output_result = "1101"
         self.assertEqual(LFSR_output_string(xor_pattern, initial_stat, output_len), output_result)
-     
-        
+
     def test_basic_LFSR_output_sequence_2(self):
         # calculate LFSR output sequence
         xor_pattern = [1, 0, 0, 0, 0, 1]
