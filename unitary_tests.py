@@ -1,11 +1,6 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
 import unittest
 
-#from T2018_Practica1_Solution_Skeleton import *
 from public_key_algorithms import *
-
 
 class FrequencyTestIndividualBits(unittest.TestCase):
 
